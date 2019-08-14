@@ -1,0 +1,257 @@
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./Plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="./Plugins/jquery-3.4.1.min.js" ></script>
+    <script type="text/javascript" src="./Plugins/popper.min.js" ></script>
+    <script type="text/javascript" src="./Plugins/bootstrap-4.3.1-dist/js/bootstrap.min.js" ></script>
+    <script src="https://kit.fontawesome.com/72cae449e1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rammetto+One&display=swap" rel="stylesheet">
+
+
+    <title>Hello, world!</title>
+
+    <style>
+        body{
+          background: #f7f7f7;
+        }
+        
+        #wrapper{
+          position: relative;
+          top: 0;
+          min-height: 100vh;
+        }
+        #Layout_brand{
+          padding: 0 15px;
+        }
+        #Layout_brand > .navbar-brand{
+        min-width: 200px;
+        /* background: #354052;
+        color: #f8f9fa; */
+      }
+      #Layout_brand > .navbar-brand i{
+        margin:0 10px 0 0;
+      }
+      #wrapper.MiniSideBar .MySideBar{
+        width: 80px;
+      }
+
+      #wrapper .MySideBar{
+        position: fixed;
+        background: #4e4e4e;
+        background:#e1e1e1;
+        width: 230px;
+        top: 40px;
+        bottom: 0px;
+        z-index: 1030;        
+      }
+      #wrapper .MySideBar:before {
+        content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #4e4e4e;
+    border-bottom: 10px solid #e1e1e1;
+    top: -8px;
+    left: 25px;
+    transform: translate(-50%);
+    }
+
+
+      #wrapper.MiniSideBar .MyMainContent{
+        padding: 55px 10px 10px 90px;
+      }
+      #wrapper .MyMainContent{
+        min-height: 100%;
+        padding: 55px 10px 10px 230px;
+      }
+
+    </style>
+    <style>
+
+.DivWelcome{
+	text-align:center;
+    /* background: rgb(77,64,226); */
+    /* background: linear-gradient(0deg, rgba(77,64,226,0.38699229691876746) 0%, rgba(77,64,226,1) 100%); */
+    background: #f7f7f7;
+}
+
+.DivWelcome > .WelcomeHeading{
+    font-size: 9vw;
+    font-family: 'Rammetto One', cursive;
+    /* color: #fbfbfb12; */
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    /* line-height: 226px; */
+}
+.DivWelcome > .WelcomeSubHeading{
+    font-size: 3vw;
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: -4.5vh;
+  }
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="90">
+
+  <div id="wrapper">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="Layout_brand">
+          <a class="navbar-brand" href="#" >
+              <i class="fa fa-list-ul"></i> Tushar Fulmali
+          </a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <span class="navbar-text">
+                Hi, <b>Pirate</b> &nbsp;
+              </span>
+              <img src="./images/dp-pirate.png" alt="DP" class="rounded-circle" width="30" height="30"  />
+            </form>
+          </div>
+        </nav>
+        
+        <div class="MySideBar" >
+            <ul class="nav nav-pills flex-column" id="navbar-example2" >
+                <li class="nav-item">
+                  <a class="nav-link" href="#Navbar1">Navbar 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Navbar2">Navbar 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Navbar3">Navbar 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
+        <div class="MyMainContent" >
+
+
+          <div class="container-fluid" >
+            <div class="row">
+<div class="col-md-12">
+
+
+<div class="DivWelcome">
+    <div class="WelcomeHeading">
+      WELCOME
+    </div>
+    <div class="WelcomeSubHeading">
+    So glad you're here
+    </div>
+    
+  </div>
+  
+</div>
+
+              <div class="col-md">
+                <div  >
+                    <h1 class="bd-title" id="content">Navbar</h1>
+                    <p class="bd-lead">Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
+                    <div id="Navbar1"></div>
+                    <h1 class="bd-title" >Navbar 1</h1>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div id="Navbar2"></div>
+                    <h1 class="bd-title" >Navbar 2</h1>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div id="Navbar3"></div>
+                    <h1 class="bd-title" >Navbar 3</h1>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <h1 class="bd-title" id="Navbar4">Navbar 4</h1>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="container-fluid d-none" style="margin-top:56px;">
+        
+        <!--The content below is only a placeholder and can be replaced.-->
+        <div class="text-center" style="height:1000px;">
+          <h1>
+            Welcome!
+          </h1>
+          <h3>
+            So glad you're here..
+          </h3>
+        
+          <img class="" width="300" alt="Angular Logo" src="assets/images/dp.png">
+        </div>
+        
+        
+            <div class="row">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="w-100"></div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+          </div>
+        <div class="row">
+            <div class="col-sm">
+              One of three columns
+            </div>
+            <div class="col-sm">
+              One of three columns
+            </div>
+            <div class="col-sm">
+              One of three columns
+            </div>
+          </div>
+        
+        
+          IMG   text-indent: -9999px;
+        
+        
+        sticky-top
+        navbar-dark bg-dark 
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        
+          <router-outlet></router-outlet>
+        
+        </div>
+        
+  </div>
+
+
+</body>
