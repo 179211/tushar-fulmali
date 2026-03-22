@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <link rel="icon" href="/CatchMe.gif" type="image/gif" />
+      </head>
       <body>{children}</body>
     </html>
   );
