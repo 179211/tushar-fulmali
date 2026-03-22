@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/assetPrefix/_next/:path+",
-        "destination": "/basePath/_next/:path+"
+        "source": "/assetPrefix//_next/:path+",
+        "destination": "/tushar-fulmali/_next/:path+"
       }
     ],
     "fallback": []
